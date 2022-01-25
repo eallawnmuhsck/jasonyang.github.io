@@ -1,0 +1,95 @@
+/*
+light theme: https://coolors.co/d2d7db-f5e0ed-f1e9db-dce9fa-e8f0e6-ffffff
+dark theme: https://coolors.co/070707-2a373c-182c4e-660000-1d0066
+christmas theme: https://coolors.co/386641-6a994e-a7c957-f2e8cf-bc4749
+*/
+
+html{
+	height:100%;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    height: 100%;
+}
+main{
+	display:grid;
+	grid-template-rows:1fr 10fr 1fr;
+}
+#buttons{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	margin:2px;
+}
+#buttons > input{
+	background-color:#DCE9FA;
+	color:#30354B;
+	font-size:20px;
+	font-family:times;
+	border:5px groove #DADDE2;
+	border-radius:5px;
+	margin:3px;
+}
+#buttons > input:hover{
+	background-color:#E2EDF0;
+}
+section{
+	border:3px solid #C8D0C6;
+	border-radius:5px;
+	margin-top:10px;
+	background-color:#FFF3FA;
+	color:#050505;
+	font-size:20px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-bottom:2px;
+	padding:10px;
+}
+#themes{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	margin:3px;
+}
+#themes > input{
+	margin:2px;
+}
+#light{
+	background-color:#FFFFFF;
+	color:#333333;
+	font-size:16px;
+	font-family:georgia;
+	border:3px solid #CCCCCC;
+	border-radius:5px;
+}
+#light:hover{
+	background-color:#F6F6F6;
+}
+#dark{
+	background-color:#000000;
+	color:#DDDDDD;
+	font-size:16px;
+	font-family:georgia;
+	border:3px solid #666666;
+	border-radius:5px;
+}
+#dark:hover{
+	background-color:#444444;
+}
+#christmas{
+	background-color:#447A3D;
+	color:#FF8B8D;
+	font-size:16px;
+	font-family:georgia;
+	border:3px solid #942226;
+	border-radius:5px;
+}
+#christmas:hover{
+	background-color:#119315;
+}
+img{
+	height:380px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
